@@ -38,6 +38,9 @@
   --color-text-second: #4682b4;
   --color-text-third: #666666;
 }
+html, body{
+  width: 100%;
+}
 
 .menu {
   background-color: var(--bg-primario);
@@ -277,11 +280,16 @@ h6 {
     margin: 0 !important;
     padding: 4% !important;
   }
+  
 
   footer {
     height: 900px !important;
   }
   .texto-legal {
     margin-top: 120%;
+  }
+
+  .container-footer{
+    padding-left: 4%;
   }
 }
