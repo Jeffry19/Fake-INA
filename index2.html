@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./Styles/style.css" />
+    <title>Fake INA</title>
+  </head>
+
+  <body>
+    <header class="container-header">
+      <div class="container-fluid container-header">
+        <div class="row menu">
+          <div class="col-9 pt-2">
+            <a class="mx-5" href="">(506) 2210 6000</a>
+          </div>
+          <div class="col-3 d-flex justify-content-end align-items-center">
+            <span class="mx-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-volume-up-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.536 14.01A8.47 8.47 0 0 0 14.026 8a8.47 8.47 0 0 0-2.49-6.01l-.708.707A7.48 7.48 0 0 1 13.025 8c0 2.071-.84 3.946-2.197 5.303z"
+                />
+                <path
+                  d="M10.121 12.596A6.48 6.48 0 0 0 12.025 8a6.48 6.48 0 0 0-1.904-4.596l-.707.707A5.48 5.48 0 0 1 11.025 8a5.48 5.48 0 0 1-1.61 3.89z"
+                />
+                <path
+                  d="M8.707 11.182A4.5 4.5 0 0 0 10.025 8a4.5 4.5 0 0 0-1.318-3.182L8 5.525A3.5 3.5 0 0 1 9.025 8 3.5 3.5 0 0 1 8 10.475zM6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06"
+                />
+              </svg>
+            </span>
+            <span class="mx-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-facebook"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+                />
+              </svg>
+            </span>
+            <span class="mx-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-youtube"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"
+                />
+              </svg>
+            </span>
+            <span class="mx-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-twitter"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"
+                />
+              </svg>
+            </span>
+
+            <a href="">Iniciar Sesión </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="position-relative">
+      <nav class="navbar navbar-dark bg-dark d-md-none px-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://www.ina.ac.cr/_catalogs/masterpage/img/INA_logo_blanco1.png"
+              alt="Logo INA"
+              width="40"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menuMobile"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="menuMobile">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                >
+                  Información de Interés
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                >
+                  Servicios Estudiantiles
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                >
+                  Servicios Empresariales
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item mt-3">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Buscar este sitio"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="nav-carrusel">
+        <div
+          id="carouselExample"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="3000"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://www.ina.ac.cr/Imgenes%20Banner/bannerHS.jpg"
+                class="d-block w-100"
+                alt="hs"
+              />
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="https://www.ina.ac.cr/Imgenes%20Banner/bannerHostigamiento.png"
+                class="d-block w-100"
+                alt="hostigamiento"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://www.ina.ac.cr/Imgenes%20Banner/bannerValores.jpg"
+                class="d-block w-100"
+                alt="valores"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://www.ina.ac.cr/Imgenes%20Banner/bannerEquifax.png"
+                class="d-block w-100"
+                alt="Equifax"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://www.ina.ac.cr/Imgenes%20Banner/bannerTE.jpg"
+                class="d-block w-100"
+                alt="banner"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://www.ina.ac.cr/Imgenes%20Banner/bannerEducacionFinanciera.png"
+                class="d-block w-100"
+                alt="educacionfinanciera"
+              />
+            </div>
+          </div>
+        </div>
+
+        <nav class="container d-none d-md-block">
+          <div class="container text-center">
+            <div>
+              <div class="row">
+                <div class="col-2">
+                  <img
+                    src="https://www.ina.ac.cr/_catalogs/masterpage/img/INA_logo_blanco1.png"
+                    alt="Logodina"
+                  />
+                </div>
+                <div class="col-3">
+                  <div class="dropdown">
+                    <button
+                      class="btn btn-transparent dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      INFORMACIÓN DE <br />
+                      <span>INTERÉS</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="dropdown">
+                    <button
+                      class="btn btn-transparent dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      SERVICIOS <br />
+                      <span>ESTUDIANTILES </span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-1">
+                  <div class="dropdown">
+                    <button
+                      class="btn btn-transparent dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      SERVICIOS <br />
+                      <span> EMPRESARIALES</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-3 buscador">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    class="bi bi-house-fill"
+                    viewBox="0 0 16 16"
+                    color="white"
+                  >
+                    <path
+                      d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"
+                    />
+                    <path
+                      d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"
+                    />
+                  </svg>
+                  <input type="text" placeholder="Buscar este Sitio" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </section>
+
+      <section class="section-Busqueda">
+        <div class="container text-center pt-5">
+          <div class="row">
+            <div class="col-12 col-md-4 mx-auto">
+              <p class="fs-2 border-bottom border-warning-subtle">
+                Búsqueda de Cursos
+              </p>
+            </div>
+            <div class="col-12 col-md-9 pt-3">
+              <p class="mb-1">Buscar por:</p>
+            </div>
+            <div class="col-12 col-md-4 mx-auto">
+              <select class="form-select" aria-label="Default select example ">
+                <option selected>Seleccione una Opción</option>
+                <option value="1">1.Programación actual disponible</option>
+                <option value="2">2.Cursos por centro de estudio</option>
+                <option value="3">3.Catálogo por sector productivo</option>
+                <option value="4">4.Oferta completa de cursos</option>
+                <option value="5">5.Busqueda detallada de cursos</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="d-flex justify-content-center align-items-center p-5 mt-4 imgCatalogos"
+        >
+          <div class="row g-5">
+            <div class="col-12 col-md-6">
+              <a href="">
+                <img
+                  src="https://www.ina.ac.cr/SiteAssets/img/bannerCatalogo.png"
+                  alt="catalogoServicios"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col-12 col-md-6">
+              <a href=""
+                ><img
+                  src="https://www.ina.ac.cr/SiteAssets/img/Banners/miniDG.jpg"
+                  alt=""
+                  class="img-fluid"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="section-Servicios">
+        <div class="text-center pt-3">
+          <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+              <p class="fs-2 border-bottom border-warning-subtle mb-3">
+                Servicios
+              </p>
+            </div>
+            <div class="col-1"></div>
+          </div>
+        </div>
+
+        <div class="accordion w-75 mx-auto" id="accordionExample ">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button fs-2 justify-content-center"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Al sector empresarial
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="container text-center contenido-acordion py-3">
+                <div class="row">
+                  <div class="col-12 col-md-4">
+                    <p></p>
+                    <a href="">Buscador de empleo</a>
+                    <br />
+                    <a href="">Solicitud de servicios de capacitación</a>
+                    <br />
+                    <a href="">Acciones afirmativas</a>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <a href="">Consulta de morosidad</a>
+                    <br />
+                    <a href="">Expedientes INA-SICOP</a>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <a href="">Buscador personal</a>
+                    <br />
+                    <a href="">Pymes y emprendimietos</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed fs-2 justify-content-center"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                A estudiantes
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="container text-center contenido-acordion py-3">
+                <div class="row">
+                  <div class="col-12 col-md-4">
+                    <a href="">Correo electrónico</a>
+                    <br />
+                    <a href="">Servicios estudiantiles</a>
+                    <br />
+                    <a href="">Certificados digitales</a>
+                  </div>
+                  <div class="col-12 col-md-4"></div>
+                  <div class="col-12 col-md-4">
+                    <a href="">Buscador de empleo</a>
+                    <br />
+                    <a href="">INA Virtual</a>
+                    <br />
+                    <a href="">Biblioteca</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed fs-2 justify-content-center"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Al público general
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="container text-center contenido-acordion py-3">
+                <div class="row">
+                  <div class="col-12 col-md-4">
+                    <a href="">Enlaces de interés</a>
+                    <br />
+                    <a href="">Bases de datos INA - INEC</a>
+                    <br />
+                    <a href="">Transparencia</a>
+                    <br />
+                    <a href="">Aporte al Plan Estratégico</a> <br />
+                    <a href=""
+                      >Instruccional y Presupuesto <br />Institucional</a
+                    >
+                    <br />
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <a href="">Plan estratégico institucional</a>
+                    <br />
+                    <a href="">Plan anual operativo</a>
+                    <br />
+                    <a href="">Encuestas a personas egresadas</a><br />
+                    <a href="">Denuncias Auditoría Internas</a>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <a href=""> Marco Nac. Cualificaciones</a>
+                    <br />
+                    <a href="">Modelo Curricular</a>
+                    <br />
+                    <a href="">Alianza para el Bilingüismo </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <br />
+      <hr />
+      <br />
+
+      <section class="section-Noticias">
+        <div class="text-center px-5 mx-5 contender-Padre-Carusel">
+          <div class="row filas">
+            <div class="col-12 col-md-6 columnas">
+              <h2 class="fs-2 border-bottom border-warning-subtle mb-3">
+                Últimas noticias
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-newspaper"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5z"
+                  />
+                  <path
+                    d="M2 3h10v2H2zm0 3h4v3H2zm0 4h4v1H2zm0 2h4v1H2zm5-6h2v1H7zm3 0h2v1h-2zM7 8h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2z"
+                  />
+                </svg>
+              </h2>
+              <div
+                id="carouselExample"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                data-bs-interval="3000"
+              >
+                <div class="carousel-inner carousel-ultimasNoti-inter">
+                  <div class="carousel-item active carousel-ultimaNoti">
+                    <img
+                      src="https://www.ina.ac.cr/Noticias/Lists/Fotos/Discapacidad.jpeg"
+                      class="d-block w-100"
+                      alt="hs"
+                    />
+                    <h4>
+                      Personas con discapacidad egresadas del MEP tendrán acceso
+                      a
+                      <br />
+                      cientos de cursos del INA
+                    </h4>
+                    <p>
+                      Personas con discapacidad egresadas del Ministerio de
+                      Educación Pública (MEP) tendrán acceso a centenares de
+                      cursos del Instituto Nacional de <br />Aprendi...
+                    </p>
+                    <hr />
+                    <br />
+                    <div class="date-maria">
+                      <p>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          class="bi bi-calendar2-week"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1z"
+                          />
+                          <path
+                            d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5zM11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"
+                          />
+                        </svg>
+                        01/07/2025
+                      </p>
+                      <p>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          class="bi bi-person-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                          />
+                        </svg>
+                        Maria Jara Quiroz
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item carousel-ultimaNoti">
+                    <img
+                      src="https://www.ina.ac.cr/Noticias/Lists/Fotos/Biogestor.jpg"
+                      class="d-block w-100"
+                      alt="hostigamiento"
+                    />
+                    <h4>
+                      Personas de zona rural aprenden a producir biogas gracias
+                      al INA
+                    </h4>
+                    <p>
+                      ​Un grupo de15 personas de Las Nubes de Pavón en Los
+                      Chiles, zona norte de Alajuela, aprendieron a producir
+                      biogás gracias a una capacitación del <br />
+                      INA ...
+                    </p>
+
+                    <hr />
+
+                    <br />
+                    <div class="date-maria">
+                      <p>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          class="bi bi-calendar2-week"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1z"
+                          />
+                          <path
+                            d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5zM11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"
+                          />
+                        </svg>
+                        01/07/2025
+                      </p>
+                      <p>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          class="bi bi-person-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                          />
+                        </svg>
+                        Maria Jara Quiroz
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item carousel-ultimaNoti">
+                    <img
+                      src="https://www.ina.ac.cr/Noticias/Lists/Fotos/Bribri%20Web.jpg"
+                      class="d-block w-100"
+                      alt="valores"
+                    />
+                    <h4>
+                      INA brindó capacitación en turismo rural a comunidad
+                      indígena Bribri
+                    </h4>
+                    <p>
+                      ​Un grupo de 32 personas de la comunidad indígena Bribri,
+                      en Talamanca, se capacitó con el INA en la Asociación de
+                      Desarrollo Integral del Territorio ...
+                    </p>
+
+                    <hr />
+                    <br />
+                    <div class="date-maria">
+                      <p>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          class="bi bi-calendar2-week"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1z"
+                          />
+                          <path
+                            d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5zM11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"
+                          />
+                        </svg>
+                        01/07/2025
+                      </p>
+                      <p>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          class="bi bi-person-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                          />
+                        </svg>
+                        Maria Jara Quiroz
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item carousel-ultimaNoti">
+                    <img
+                      src="https://www.ina.ac.cr/Noticias/Lists/Fotos/Escuela%20Taller%20Los%20Chiles.JPG"
+                      class="d-block w-100"
+                      alt="Equifax"
+                    />
+                    <h4>
+                      Se graduó primer grupo de Escuela Taller en Los Chiles
+                    </h4>
+                    <p>
+                      ​Un grupo de once personas —8 mujeres y 3 hombres—
+                      finalizaron su formación en Hostelería, convirtiéndose en
+                      el primer grupo graduado del proyecto Esc...
+                    </p>
+                    <br />
+                    <hr />
+                    <br />
+                    <div class="date-maria">
+                      <p>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          class="bi bi-calendar2-week"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1z"
+                          />
+                          <path
+                            d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5zM11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"
+                          />
+                        </svg>
+                        01/07/2025
+                      </p>
+                      <p>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          class="bi bi-person-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                          />
+                        </svg>
+                        Maria Jara Quiroz
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item carousel-ultimaNoti">
+                    <img
+                      src="https://www.ina.ac.cr/Noticias/Lists/Fotos/CDE%20Pac%C3%ADfico%20Central%20y%20Lim%C3%B3n.jpeg"
+                      class="d-block w-100"
+                      alt="banner"
+                    />
+                    <h4>
+                      INA abre dos nuevos Centros de Desarrollo Empresarial
+                    </h4>
+                    <p>
+                      ​Con el objetivo de brindar asesorías personalizadas y
+                      gratuitas a pymes y emprendimientos, el INA reforzó la
+                      atención al abrir dos nuevos Centros de ...
+                    </p>
+                    <br />
+                    <hr />
+
+                    <br />
+                    <div class="date-maria">
+                      <p>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          class="bi bi-calendar2-week"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1z"
+                          />
+                          <path
+                            d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5zM11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"
+                          />
+                        </svg>
+                        01/07/2025
+                      </p>
+                      <p>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          class="bi bi-person-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                          />
+                        </svg>
+                        Maria Jara Quiroz
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 container-CanalIna">
+              <h2 class="fs-2 border-bottom border-warning-subtle mb-3">
+                Canal INA
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-tv"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5M13.991 3l.024.001a1.5 1.5 0 0 1 .538.143.76.76 0 0 1 .302.254c.067.1.145.277.145.602v5.991l-.001.024a1.5 1.5 0 0 1-.143.538.76.76 0 0 1-.254.302c-.1.067-.277.145-.602.145H2.009l-.024-.001a1.5 1.5 0 0 1-.538-.143.76.76 0 0 1-.302-.254C1.078 10.502 1 10.325 1 10V4.009l.001-.024a1.5 1.5 0 0 1 .143-.538.76.76 0 0 1 .254-.302C1.498 3.078 1.675 3 2 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2"
+                  />
+                </svg>
+              </h2>
+              <button type="button" class="btn btn-primary btn-lg w-100">
+                <a href="">Ver todos los videos del canal del INA</a>
+              </button>
+              <br /><br />
+
+              <iframe
+                class="object-fit-contain"
+                width="100%"
+                height="330"
+                src="https://www.youtube.com/embed/nehbXaJrU2U"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="text-center container-footer">
+        <div class="row container-footer-intern">
+          <div class="col-12 col-md-3" style="height: 30%">
+            <div class="mb-auto">
+              <img
+                src="https://www.ina.ac.cr/_catalogs/masterpage/img/INA_logo_blanco1.png"
+                alt=""
+                width="80%"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div>
+              <p>
+                Dirección sede central: <br />
+                San José, frente al <br />
+                Parque de Diversiones.
+              </p>
+
+              <p class="pt-2">
+                Horario de atención: <br />
+                Presencial: Lunes a viernes <br />
+                7:00 a.m. a 3:00 p.m. <br />
+                Telefónica: Lunes a domingo <br />
+                7:00 a.m. a 10:00 p.m.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div>
+              <h6 class="pt-4"><a href="">Referencias externas</a></h6>
+
+              <p>
+                Preguntas frecuentes FAQ <br />
+                Encuesta de satisfacción <br />
+                Política de condiciones de uso <br />
+                Aviso de Seguridad <br />
+                Acerca del INA <br />
+                Denuncias Auditoría Interna <br />
+                Denuncias por corrupción o <br />
+                fraude <br />
+                Mapa del Sitio
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div>
+              <h6>Contáctenos:</h6>
+              <p>
+                <a href="">Teléfono: (506) 2210-6000</a>
+                <br />
+                <a href=""
+                  >Correo electrónico: <br />
+                  informacion@ina.ac.cr</a
+                >
+              </p>
+
+              <p>
+                <a href="">Intranet institucional</a>
+                <br />
+                <a href="">Correo institucional</a>
+                <br />
+                <a href="">Correo institucional Office 365</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12"><p class="m-0">© 2025 INA</p></div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

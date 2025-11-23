@@ -1,0 +1,283 @@
+/* .contenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 992px) {
+
+    .contenedor{
+        flex-direction: row;
+        flex-wrap: wrap;
+        color: blueviolet;
+        font-size: 20px;
+    }
+    .item{
+        width: 33.33%;
+
+    }
+    
+    
+}
+
+@media (min-width: 1200px){
+    .contenedor{
+        flex-direction: row;
+        flex-wrap: wrap;
+        color: brown;
+        font-size: 22;
+    }
+
+    .item{
+        width: 25%;
+    }
+} */
+
+:root {
+  --color-text: white;
+  --bg-primario: #cc8a00;
+  --color-text-second: #4682b4;
+  --color-text-third: #666666;
+}
+
+.menu {
+  background-color: var(--bg-primario);
+  height: 40px;
+}
+
+div.menu a {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 16px;
+}
+div.menu svg {
+  color: var(--color-text);
+  width: 22px !important;
+  height: 22px !important;
+}
+
+.menu .col-3 {
+  padding-right: 30px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-toggle::after {
+  margin-left: 0.4em;
+  display: none !important;
+}
+
+.dropdown button {
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+nav.container {
+  position: absolute;
+  top: 20px; /* distancia hacia abajo desde el borde superior */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20; /* se dibuja por encima del carrusel */
+  width: 90%; /* mismo ancho visual que INA */
+}
+nav img {
+  left: -5% !important;
+}
+nav.container .btn {
+  color: var(--color-text);
+  backdrop-filter: blur(4px);
+}
+
+div.container img {
+  position: absolute;
+  top: -14px;
+  right: 960px;
+  width: 22%;
+}
+
+.buscador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80%;
+  gap: 10%;
+  margin-top: -7%;
+}
+.buscador svg {
+  width: 10% !important;
+}
+.buscador input {
+  height: 52%;
+  width: 70%;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  padding-left: 8%;
+  font-size: 12px;
+}
+
+.select-cursos {
+  width: 30%;
+}
+
+.accordion-button {
+  background-color: var(--bg-primario) !important;
+  color: #003087;
+}
+.accordion-header {
+  color: var(--color-text) !important;
+}
+.accordion-button::after {
+  display: none;
+}
+
+.contenido-acordion a {
+  text-decoration: none !important;
+  color: #4682b4 !important;
+}
+.contenido-acordion a:hover {
+  border-bottom: 1.5px solid #4682b4;
+}
+.carousel-ultimaNoti {
+  height: 500px;
+}
+
+.carousel-ultimaNoti img {
+  height: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+.carousel-ultimaNoti p {
+  font-size: 16px;
+  color: var(--color-text-third);
+}
+
+.container-CanalIna button {
+  background-color: var(--bg-primario);
+  color: var(--color-text-second);
+  height: 10%;
+  border-radius: 5px !important;
+  border: none !important;
+}
+
+.container-CanalIna button:hover,
+.container-CanalIna button:focus,
+.container-CanalIna button:active {
+  background-color: var(--bg-primario) !important; /* mismo color que normal */
+  color: var(--color-text-second) !important;
+  box-shadow: none !important; /* opcional, quita sombra */
+}
+.container-CanalIna a {
+  text-decoration: none;
+}
+.container-CanalIna a:hover {
+  border-bottom: 2px solid var(--color-text-second) !important;
+}
+
+.carousel-ultimaNoti {
+  height: auto !important;
+}
+
+.carousel-ultimasNoti-inter {
+  height: auto !important;
+}
+
+.carousel-ultimaNoti img {
+  max-height: 200px; /* opcional para que la imagen no haga enorme el slide */
+  object-fit: cover;
+}
+
+.date-maria {
+  display: flex;
+  margin-right: 20%;
+}
+
+.date-maria svg {
+  color: var(--bg-primario) !important;
+  width: 7%;
+  margin-top: -1%;
+}
+
+footer {
+  background-color: #1d2625;
+  margin-top: 5%;
+}
+
+.container-footer p,
+a,
+h6 {
+  text-align: justify;
+  color: #b2bfbe;
+  text-decoration: none;
+}
+.container-footer a:hover {
+  border-bottom: 1.5px solid #b2bfbe !important;
+}
+.container-footer-intern {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  justify-content: center;
+}
+.container-footer-inferior p {
+  color: #b2bfbe;
+}
+.container-footer-inferior {
+  background-color: #141a19;
+  height: 70px;
+}
+
+@media (max-width: 412px) {
+  .section-Noticias h2 {
+    font-size: 1.4rem;
+  }
+  .section-Noticias .carousel-ultimaNoti img{
+    width: 100% !important;
+    max-width: 100% !important;
+    object-fit: cover;
+  }
+
+  .carousel-ultimaNoti h4 {
+    font-size: 1rem;
+  }
+
+  .carousel-ultimaNoti p {
+    font-size: 0.9rem;
+  }
+
+  .date-maria p {
+    font-size: 0.8rem;
+  }
+  .carousel-inner,
+.carousel-item,
+.carousel-item img {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.container-header  {
+  background-color: var(--bg-primario);
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  
+}
+
+.contender-Padre-Carusel{
+  margin: 0 !important;
+  padding: 4% !important;
+}
+
+footer{
+  height: 900px !important;
+}
+
+
+}
