@@ -206,6 +206,11 @@ footer {
   background-color: #1d2625;
   margin-top: 5%;
 }
+.texto-legal {
+  background-color: #141a19;
+  height: 80px;
+  color: #b2bfbe;
+}
 
 .container-footer p,
 a,
@@ -236,7 +241,7 @@ h6 {
   .section-Noticias h2 {
     font-size: 1.4rem;
   }
-  .section-Noticias .carousel-ultimaNoti img{
+  .section-Noticias .carousel-ultimaNoti img {
     width: 100% !important;
     max-width: 100% !important;
     object-fit: cover;
@@ -254,30 +259,29 @@ h6 {
     font-size: 0.8rem;
   }
   .carousel-inner,
-.carousel-item,
-.carousel-item img {
-  width: 100% !important;
-  max-width: 100% !important;
-}
+  .carousel-item,
+  .carousel-item img {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
 
-.container-header  {
-  background-color: var(--bg-primario);
-  height: 60px;
-  width: 100%;
-  display: flex;
-  align-items: center;
+  .container-header {
+    background-color: var(--bg-primario);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
 
-  
-}
+  .contender-Padre-Carusel {
+    margin: 0 !important;
+    padding: 4% !important;
+  }
 
-.contender-Padre-Carusel{
-  margin: 0 !important;
-  padding: 4% !important;
-}
-
-footer{
-  height: 900px !important;
-}
-
-
+  footer {
+    height: 900px !important;
+  }
+  .texto-legal {
+    margin-top: 120%;
+  }
 }
